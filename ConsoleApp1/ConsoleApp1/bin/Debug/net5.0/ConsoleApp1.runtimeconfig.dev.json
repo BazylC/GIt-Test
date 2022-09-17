@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Bazyli\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Bazyli\\.nuget\\packages"
+    ]
+  }
+}
