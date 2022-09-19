@@ -11,7 +11,7 @@ namespace ConsoleApp1
         public string FirstName { get; set; }
         public string SecondName { get; set; }
 
-        public Contract Contract { get; set; }
+        public IContract contract;
 
         public Employee()
         {
@@ -19,21 +19,21 @@ namespace ConsoleApp1
         }
 
 
-        public Employee(string firstName, string secondName, Contract contract)
+        public Employee(string firstName, string secondName, IContract contract)
         {
             this.FirstName = firstName;
             this.SecondName = secondName;
-            this.Contract = contract;
+            this.contract = contract;
         }
 
         public void ChangeContract(Contract contract)
         {
-            this.Contract = contract;
+            this.contract = contract;
         }
 
         public double Salary()
         {
-            return this.Contract.Salary();
+            return this.contract.Salary();
         }
 
         public override string ToString()

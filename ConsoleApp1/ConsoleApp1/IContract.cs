@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    interface IContract
+    public interface IContract
     {
         double Salary();
     }

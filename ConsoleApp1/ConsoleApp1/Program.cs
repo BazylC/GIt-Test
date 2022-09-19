@@ -20,6 +20,7 @@ namespace ConsoleApp1
 
             Console.WriteLine(emp);
             Console.WriteLine(emp2);
+            Console.WriteLine(emp);
         }
     }
 }
