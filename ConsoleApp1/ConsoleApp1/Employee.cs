@@ -26,7 +26,7 @@ namespace ConsoleApp1
             this.contract = contract;
         }
 
-        public void ChangeContract(Contract contract)
+        public void ChangeContract(IContract contract)
         {
             this.contract = contract;
         }
